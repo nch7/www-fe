@@ -1,0 +1,33 @@
+{
+  "name": "www-agent",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.2.3",
+    "axios": "^0.27.2",
+    "date-fns": "^2.29.2",
+    "formik": "^2.2.9",
+    "jotai": "^1.8.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "ui": "*",
+    "web3.storage": "^4.4.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "eslint": "7.32.0",
+    "eslint-config-custom": "*",
+    "tsconfig": "*",
+    "typescript": "^4.7.2",
+    "vite": "^3.0.7"
+  }
+}
